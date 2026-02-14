@@ -6,6 +6,18 @@ It allows users to create tickets, view all tickets, and update the ticket statu
 
 The main goal of this project was to understand how real-world backend systems are structured and how APIs are designed and tested.
 
+## Demo Screenshots
+
+The screenshots below show the complete working flow of the Ticket Management System.
+First, a new ticket is created using a POST API request by providing basic details such as title and description. The application automatically generates a unique ticket ID and assigns an initial status of OPEN.
+Next, the status of an existing ticket is updated using a PUT request. The ticket ID is passed in the URL, and the status is changed from OPEN to CLOSED, demonstrating how ticket workflow and state changes are handled.
+Finally, all tickets are fetched using a GET API request. The response returns a list of tickets along with their current statuses, confirming that ticket creation and updates are stored and reflected correctly in the system.
+
+![Create Ticket](screenshots/create-ticket.png)
+![Update Status](screenshots/update-ticket-status.png)
+![View Tickets](screenshots/get-all-tickets.png)
+
+
 ## Technologies Used
 - Java
 - Spring Boot
