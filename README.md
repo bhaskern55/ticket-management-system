@@ -13,9 +13,9 @@ First, a new ticket is created using a POST API request by providing basic detai
 Next, the status of an existing ticket is updated using a PUT request. The ticket ID is passed in the URL, and the status is changed from OPEN to CLOSED, demonstrating how ticket workflow and state changes are handled.
 Finally, all tickets are fetched using a GET API request. The response returns a list of tickets along with their current statuses, confirming that ticket creation and updates are stored and reflected correctly in the system.
 
-![Create Ticket](screenshots/01create-ticket.png)
-![View Tickets](screenshots/02get-all-tickets.png)
-![Update Status](screenshots/03update-ticket-status.png)
+![Create Ticket](screenshots/01-create-ticket.png)
+![View Tickets](screenshots/02-get-all-tickets.png)
+![Update Status](screenshots/03-update-ticket-status.png)
 
 
 
